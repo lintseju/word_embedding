@@ -1,0 +1,7 @@
+gensim==3.7.1
+jieba==0.39
+matplotlib==3.0.2
+numpy==1.16.1
+requests==2.21.0
+scikit-learn==0.20.2
+tqdm==4.30.0
