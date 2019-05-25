@@ -13,16 +13,15 @@ WIKIXML = 'data/{lang}wiki.xml.bz2'
 
 def get_args():
     parser = argparse.ArgumentParser(description='Train embedding')
-    parser.add_argument('--lang', default='en', help='language')
-    parser.add_argument('--model', default='word2vec', help='word embedding model')
-    parser.add_argument('--output', required=True, help='output for word vectors')
-    parser.add_argument('--size', default=300, help='embedding size')
+    parser.add_argument('--lang', type=str, default='en', help='language')
+    parser.add_argument('--model', type=str, default='word2vec', help='word embedding model')
+    parser.add_argument('--output', type=str, required=True, help='output for word vectors')
+    parser.add_argument('--size', type=int,default=300, help='embedding size')
     return parser.parse_args()
 
 
 def main():
     args = get_args()
-
     # download latest wiki dump
     w.download_wiki_dump(args.lang, WIKIXML.format(lang=args.lang))
 
@@ -40,7 +39,7 @@ def main():
     logging.info('Training done.')
 
     logging.info('Save trained word vectors')
-    with open(args.output, 'w') as f:
+    with open(args.output, 'w', encoding='utf-8') as f:
         f.write('%d %d\n' % (len(model.wv.vocab), args.size))
         for word in tqdm(model.wv.vocab):
             f.write('%s %s\n' % (word, ' '.join([str(v) for v in model.wv[word]])))

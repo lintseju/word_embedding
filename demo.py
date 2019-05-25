@@ -15,8 +15,8 @@ def find_k_nearest(source, vectors, k):
 
 def get_args():
     parser = argparse.ArgumentParser(description='Train embedding')
-    parser.add_argument('--lang', default='en', help='language')
-    parser.add_argument('--output', required=True, help='output for word vectors')
+    parser.add_argument('--lang', type=str, default='en', help='language')
+    parser.add_argument('--output', type=str, required=True, help='output for word vectors')
     return parser.parse_args()
 
 

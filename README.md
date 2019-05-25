@@ -19,7 +19,7 @@ python train.py --lang en --model word2vec --size 300 --output data/en_wiki_word
 --output: path to save trained word embedding
 ```
 
-Visualization of trained embedding:
+Visualization of trained embedding (for English and Chinese only):
 ```
 python demo.py --lang en --output data/en_wiki_word2vec_300.txt
 --lang: en for English, zh for Chinese
