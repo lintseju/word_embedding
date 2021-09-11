@@ -30,5 +30,5 @@ Pretrained word embedding:
 
 | | Chinese | English |
 |---|---|---|
-| Word2Vec| [Download](https://drive.google.com/file/d/1tj0fszpULth9L2F2yVqRKmRAHi8xD_uc/view?usp=sharing) | [Download](https://drive.google.com/file/d/1F9pndKlaMCRWp9awvQsoC5XLeRANclnV/view?usp=sharing) |
-| FastText| [Download](https://drive.google.com/file/d/1lvhnux3V1psfTMl2aEynaQ_vAiSy_vnI/view?usp=sharing) | [Download](https://drive.google.com/file/d/1U3rYodGoo6BRzuOA53WBY9OY_QaWZcey/view?usp=sharing) |
+| Word2Vec| [Download](https://drive.google.com/file/d/12o6EFoQGpaVhGwYrqvoXFiX__VG7-Uab/view?usp=sharing) | [Download](https://drive.google.com/file/d/1F9pndKlaMCRWp9awvQsoC5XLeRANclnV/view?usp=sharing) |
+| FastText| [Download](https://drive.google.com/file/d/1rY9SMmYsgz0is3fgGkSQn3nDwc92ygd5/view?usp=sharing) | [Download](https://drive.google.com/file/d/1U3rYodGoo6BRzuOA53WBY9OY_QaWZcey/view?usp=sharing) |
