@@ -1,7 +1,7 @@
 Word Embedding
 ===============================================
 
-For technical details, please read my blog: [Chinese version](https://medium.com/@black_swan/%E7%94%A8%E7%B6%AD%E5%9F%BA%E8%AA%9E%E6%96%99%E8%A8%93%E7%B7%B4-word2vec-%E5%92%8C-fasttext-embedding-25ede5b15994) [English version](https://medium.com/@black_swan/how-to-train-word2vec-and-fasttext-embedding-on-wikipedia-corpus-9e8ac45a0c0a) 
+For technical details, please read my blog: [Chinese version](https://writings.jigfopsda.com/zh/posts/2019/wiki_word2vec_fasttext/) [English version](https://medium.com/@black_swan/how-to-train-word2vec-and-fasttext-embedding-on-wikipedia-corpus-9e8ac45a0c0a) 
 
 Environment setup:
 ```
@@ -30,5 +30,5 @@ Pretrained word embedding:
 
 | | Chinese | English |
 |---|---|---|
-| Word2Vec| [Download](https://drive.google.com/file/d/1rY9SMmYsgz0is3fgGkSQn3nDwc92ygd5/view?usp=sharing) | [Download](https://drive.google.com/file/d/1F9pndKlaMCRWp9awvQsoC5XLeRANclnV/view?usp=sharing) |
-| FastText| [Download](https://drive.google.com/file/d/12o6EFoQGpaVhGwYrqvoXFiX__VG7-Uab/view?usp=sharing) | [Download](https://drive.google.com/file/d/1U3rYodGoo6BRzuOA53WBY9OY_QaWZcey/view?usp=sharing) |
+| Word2Vec| [Download](https://drive.google.com/file/d/1rY9SMmYsgz0is3fgGkSQn3nDwc92ygd5/view?usp=sharing) | [Download](https://drive.google.com/file/d/12fkBMFubpg5oduN4KCTy5nHlHhOPObKr/view?usp=sharing) |
+| FastText| [Download](https://drive.google.com/file/d/12o6EFoQGpaVhGwYrqvoXFiX__VG7-Uab/view?usp=sharing) | [Download](https://drive.google.com/file/d/1O8ck-y5Fw9llD3OwxDMah9nu4NcyNX54/view?usp=sharing) |
