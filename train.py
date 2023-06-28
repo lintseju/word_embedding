@@ -30,9 +30,9 @@ def main():
 
     logging.info('Training model %s', args.model)
     if args.model == 'word2vec':
-        model = Word2Vec(wiki_sentences, sg=1, hs=1, size=args.size, workers=12, iter=5, min_count=10)
+        model = Word2Vec(wiki_sentences, sg=1, hs=1, vector_size=args.size, workers=12, epochs=5, min_count=10)
     elif args.model == 'fasttext':
-        model = FastText(wiki_sentences, sg=1, hs=1, size=args.size, workers=12, iter=5, min_count=10)
+        model = FastText(wiki_sentences, sg=1, hs=1, vector_size=args.size, workers=12, epochs=5, min_count=10)
     else:
         logging.info('Unknown model %s, should be "word2vec" or "fasttext"', args.model)
         return
@@ -40,8 +40,8 @@ def main():
 
     logging.info('Save trained word vectors')
     with open(args.output, 'w', encoding='utf-8') as f:
-        f.write('%d %d\n' % (len(model.wv.vocab), args.size))
-        for word in tqdm(model.wv.vocab):
+        f.write('%d %d\n' % (len(model.wv), args.size))
+        for word in tqdm(model.wv.key_to_index):
             f.write('%s %s\n' % (word, ' '.join([str(v) for v in model.wv[word]])))
     logging.info('Done')
 
