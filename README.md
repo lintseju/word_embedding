@@ -1,7 +1,7 @@
 Word Embedding
 ===============================================
 
-For technical details, please read my blog: [Chinese version](https://writings.jigfopsda.com/zh/posts/2019/wiki_word2vec_fasttext/) [English version](https://medium.com/@black_swan/how-to-train-word2vec-and-fasttext-embedding-on-wikipedia-corpus-9e8ac45a0c0a) 
+For technical details, please read my blog: [Chinese version](https://writings.jigfopsda.com/zh/posts/2019/wiki_word2vec_fasttext/) [English version](https://writings.jigfopsda.com/en/posts/2019/wiki_word2vec_fasttext/) 
 
 Environment setup:
 ```
