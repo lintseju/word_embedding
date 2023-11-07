@@ -1,4 +1,4 @@
-gensim==3.7.1
+gensim==4.0.0
 jieba==0.39
 matplotlib==3.0.2
 numpy==1.22.0
